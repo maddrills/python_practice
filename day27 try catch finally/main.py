@@ -16,6 +16,9 @@ def tryCatchFunction():
         print("file was close.")
 
 
+def rasingException():
+    """ rais an exception that throws a new exception """
+    raise TypeError("An error Occurred")
 
 
 
