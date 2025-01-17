@@ -53,7 +53,13 @@
 t = ("a", "b", "c")
 print(t)
 
+<<<<<<< HEAD
 print(t[0])
+=======
+def rasingException():
+    """ rais an exception that throws a new exception """
+    raise TypeError("An error Occurred")
+>>>>>>> 45420c24385e6d5ea87e417b1e17cafcec340d9d
 
 metallica2 = list(t)
 print(metallica2)
